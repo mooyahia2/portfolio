@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محمد يحيى</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Portfolio CSS File -->
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <!-- Main Portfolio CSS File Arabic-->
+    <link rel="stylesheet" href="css/portfolioAR.css" />
+    <!-- Email File -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "WPl0RMvb8oB4upWFS",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2><a href="#Home"><img src="images/logoAR.png" alt="Logo" width="200px"></a></h2>
+        <nav>
+          <i class="fa-solid fa-bars toggle-menu" id="toggle-menu"></i>
+          <ul id="menu">
+            <li><a href="#Home">الرئيسية</a></li>
+            <li><a href="#Skills">المهارات</a></li>
+            <li><a href="#Projects">المشاريع</a></li>
+            <li><a href="#Testimonials">آراء العملاء</a></li>
+            <li><a href="#Services">الخدمات</a></li>
+            <li><a href="#ContactMe" class="Contact-link">تواصل معي</a></li>
+            <li>
+              <select id="website-language" class="website-language">
+                <option value="arabic">العربية</option>
+                <option value="english">English</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Start Home -->
+    <div class="home section" id="Home">
+      <div class="container">
+        <div class="info">
+          <p>مرحباً، أنا</p>
+          <h2 class="name">محمد يحيى</h2>
+          <p class="title">مطور مواقع إلكترونية</p>
+          <p class="description">
+            شغوف بإنشاء مواقع حديثة، متجاوبة وسهلة الاستخدام. أتخصص في تطوير
+            الواجهات الأمامية باستخدام HTML وCSS وJavaScript، مع التركيز على
+            التصميم النظيف وتجربة المستخدم السلسة. أحب تحويل الأفكار إلى حلول
+            رقمية تفاعلية.
+          </p>
+          <p><a href="#ContactMe" class="Contact-link">تواصل</a></p>
+        </div>
+        <div class="personal-image">
+          <img src="images/mypic.jpg" alt="محمد يحيى" />
+        </div>
+      </div>
+    </div>
+    <!-- End Home -->
+
+    <!-- Start Skills -->
+    <div class="skills section" id="Skills" dir="ltr">
+      <div class="container">
+        <div class="main-heading">
+          <h2>ما أمتلكه</h2>
+          <p>مهاراتي</p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-box element">
+            <i class="fa-brands fa-html5"></i>
+            <h4>HTML</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h4>CSS</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-js"></i>
+            <h4>JavaScript</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-bootstrap"></i>
+            <h4>Bootstrap</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-git-alt"></i>
+            <h4>Git</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-github"></i>
+            <h4>GitHub</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+
+    <!-- Start Portfolio -->
+    <div class="portfolio section" id="Projects">
+      <div class="container">
+        <div class="main-heading">
+          <h2>أعمالي</h2>
+          <p>مشاريعي</p>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/event-go.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>إيفينت جو</h5>
+              <p class="description">
+                موقع لإدارة الفعاليات يقدم خدمات التخطيط، التنظيم، والترويج
+                باحترافية، لتجارب لا تُنسى بتصميم حديث ومتجاوب.
+              </p>
+              <p class="visit">
+                <a href="https://mooyahia.github.io/EventGo/" target="_blank"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                  زيارة الموقع
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/kasper.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>كاسبر</h5>
+              <p class="description">
+                قالب وكالة عصرية يستعرض الخدمات، الأعمال، خطط الأسعار، وتفاصيل
+                التواصل بتصميم نظيف ومتجاوب واحترافي.
+              </p>
+              <p class="visit">
+                <a href="https://mooyahia.github.io/Kasper/" target="_blank"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                  زيارة الموقع
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/leon.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>ليون</h5>
+              <p class="description">
+                قالب أنيق ومتجاوب صُمّم للوكالات الرقمية، يبرز الخدمات والمشاريع
+                وتفاصيل الفريق ووسائل التواصل.
+              </p>
+              <p class="visit">
+                <a href="https://mooyahia.github.io/Leon/" target="_blank"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                  زيارة الموقع
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/creative-agency.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>الوكالة الإبداعية</h5>
+              <p class="description">
+                قالب متعدد الاستخدامات للشركات والوكالات الناشئة، يضم أقساماً
+                للأعمال، الخدمات، خطط الأسعار والتواصل.
+              </p>
+              <p class="visit">
+                <a
+                  href="https://mooyahia.github.io/Creative-Agency/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                  زيارة الموقع
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/egyptian-tourism.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>السياحة المصرية</h5>
+              <p class="description">
+                موقع سفر أنيق ومتجاوب يسلط الضوء على المواقع التاريخية في مصر
+                وبرامج الجولات والخدمات السياحية.
+              </p>
+              <p class="visit">
+                <a
+                  href="https://mooyahia.github.io/Egyptian-Tourism/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                  زيارة الموقع
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/portfolio-1.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>موقعي الشخصي</h5>
+              <p class="description">
+                موقع شخصي يعرض مشاريعي في تطوير الويب، مهاراتي وخدماتي، بتصميم
+                نظيف ومتجاوب.
+              </p>
+              <p class="visit">
+                <a href="" target="_blank"
+                  ><i class="fa-solid fa-arrow-left"></i>
+                  زيارة الموقع
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials section" id="Testimonials">
+      <div class="container">
+        <div class="main-heading">
+          <h2>آراء العملاء</h2>
+          <p>ماذا يقول عملائي عنّي</p>
+        </div>
+
+        <div class="testimonials-container">
+          <!-- رأي العميل 1 -->
+          <div class="testimonial-box element">
+            <div class="text">
+              <p>
+                محمد مطوّر مواقع متميز للغاية! سلّم مشروعي في الوقت المحدد
+                بتصميم عصري ومتجاوب. أنصح بالتعامل معه بشدّة.
+              </p>
+            </div>
+            <div class="testimonial">
+              <div class="image"><img src="images/mypic.jpg" alt="عميل" /></div>
+              <div class="info">
+                <p class="name">العميل الأول</p>
+                <p class="title">الرئيس التنفيذي، الشركة A</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- رأي العميل 2 -->
+          <div class="testimonial-box element">
+            <div class="text">
+              <p>
+                محترف جدًا وسهل التعامل معه. فهم محمد ما أحتاجه بالضبط وتجاوز
+                توقعاتي.
+              </p>
+            </div>
+            <div class="testimonial">
+              <div class="image"><img src="images/mypic.jpg" alt="عميل" /></div>
+              <div class="info">
+                <p class="name">العميل الثاني</p>
+                <p class="title">مدير، شركة ناشئة B</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- رأي العميل 3 -->
+          <div class="testimonial-box element">
+            <div class="text">
+              <p>
+                أعجبتني بساطة التصميم وسلاسة أداء الموقع. مهارات محمد بالفعل
+                رائعة.
+              </p>
+            </div>
+            <div class="testimonial">
+              <div class="image"><img src="images/mypic.jpg" alt="عميل" /></div>
+              <div class="info">
+                <p class="name">العميل الثالث</p>
+                <p class="title">مستقل</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Testimonials -->
+
+    <!-- Start Services -->
+    <div class="services section" id="Services">
+      <div class="container">
+        <div class="main-heading">
+          <h2>ما أقدمه</h2>
+          <p>خدماتي</p>
+        </div>
+        <div class="services-container">
+          <div class="service-box element">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="text">
+              <h4>تطوير المواقع</h4>
+              <p>كود نظيف، حديث وسهل الاستخدام لموقعك</p>
+            </div>
+          </div>
+          <div class="service-box element">
+            <i class="fa-solid fa-user-gear"></i>
+            <div class="text">
+              <h4>حلول مخصصة</h4>
+              <p>ميزات مصممة خصيصاً لتناسب احتياجاتك</p>
+            </div>
+          </div>
+          <div class="service-box element">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <div class="text">
+              <h4>تصميم متجاوب</h4>
+              <p>متوافق مع جميع الأجهزة</p>
+            </div>
+          </div>
+          <div class="service-box element">
+            <i class="fa-solid fa-gears"></i>
+            <div class="text">
+              <h4>الدعم والصيانة</h4>
+              <p>صيانة موثوقة وتحديثات مستمرة</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- Start Contact -->
+    <div class="contact section" id="ContactMe">
+      <div class="container">
+        <div class="main-heading">
+          <h2>تواصل</h2>
+          <p>هل تبحث عن مطور مواقع؟ أنا هنا لخدمتك.</p>
+        </div>
+        <div class="contact-super-container">
+          <div class="contact-container">
+            <div class="contact-box element">
+              <a href="https://github.com/mooyahia" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <h4>GitHub</h4>
+                <p>mooyahia</p>
+              </a>
+            </div>
+            <div class="contact-box element">
+              <a
+                href="https://www.linkedin.com/in/mohamed-yahia-17462530b"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+                <h4>LinkedIn</h4>
+                <p>Mohamed Yahia</p>
+              </a>
+            </div>
+            <div class="contact-box element">
+              <a
+                href="https://www.upwork.com/freelancers/~0150ef7f7d2fd58ec5"
+                target="_blank"
+              >
+                <i class="fa-brands fa-square-upwork"></i>
+                <h4>UpWork</h4>
+                <p>Mohamed Yahia</p>
+              </a>
+            </div>
+            <div class="contact-box element">
+              <a href="mailto:mohamedyahiad8@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>البريد الإلكتروني</h4>
+                <p>mohamedyahiad8@gmail.com</p>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form element">
+            <div class="main-heading">
+              <h2>أرسل رسالة</h2>
+            </div>
+            <form action="">
+              <input type="text" placeholder="أدخل الموضوع" id="subject" />
+              <input
+                type="email"
+                placeholder="أدخل بريدك الإلكتروني"
+                id="email"
+              />
+              <textarea id="message" placeholder="أدخل رسالتك"></textarea>
+              <input
+                type="button"
+                value="إرسال الرسالة"
+                id="sendMessage"
+                onclick="checkAndSend()"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="links">
+        <a href="https://github.com/mooyahia" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/mohamed-yahia-17462530b"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="mailto:mohamedyahiad8@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <div class="copy-right">
+        <p>&copy; جميع الحقوق محفوظة 2025 | محمد يحيى</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/portfolioAR.js"></script>
+  </body>
+</html>

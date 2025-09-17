@@ -1,0 +1,90 @@
+/* =========================
+   Start Portfolio RTL
+========================= */
+.portfolio {
+  min-height: 100vh;
+}
+.portfolio .portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+.portfolio .portfolio-container .portfolio-box {
+  background-color: var(--background-color-components);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  direction: rtl; 
+  text-align: right; 
+}
+@media (max-width: 767px) {
+  .portfolio .portfolio-container .portfolio-box {
+    margin: auto 20px;
+  }
+}
+.portfolio .portfolio-container .portfolio-box .text h5 {
+  color: var(--main-color);
+  margin: 10px auto;
+  font-size: 20px;
+}
+.portfolio .portfolio-container .portfolio-box .text p.description {
+  color: rgb(206, 200, 200);
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 10px auto 60px;
+}
+.portfolio .portfolio-container .portfolio-box .text p.visit {
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 20px 0 0;
+  position: absolute;
+  bottom: 20px;
+  right: 5px; 
+  transition: right 0.3s ease, background-color 0.5s ease 0.3s,
+    color 0.5s ease 0.3s;
+}
+.portfolio .portfolio-container .portfolio-box .text p.visit:hover {
+  background-color: var(--main-color);
+  right: 20px;
+  color: white;
+}
+.portfolio .portfolio-container .portfolio-box .text p.visit:hover i {
+  color: white;
+  transition: 0.5s ease 0.3s;
+}
+.portfolio .portfolio-container .portfolio-box:hover {
+  background-color: var(--main-color);
+}
+.portfolio .portfolio-container .portfolio-box:hover .text p.visit a,
+.portfolio .portfolio-container .portfolio-box:hover .text p.visit i,
+.portfolio .portfolio-container .portfolio-box:hover .text p.description,
+.portfolio .portfolio-container .portfolio-box:hover .text h5 {
+  color: white;
+  transition: 0.3s;
+}
+.portfolio .portfolio-container .portfolio-box:hover .text p.visit:hover {
+  background-color: var(--background-color-components);
+}
+.portfolio .portfolio-container .portfolio-box .text p.visit a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row-reverse; 
+}
+.portfolio .portfolio-container .portfolio-box .text p.visit i {
+  color: var(--main-color);
+  font-size: 18px;
+  margin-right: 10px;
+}
+.portfolio .portfolio-container .portfolio-box .image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px var(--main-color);
+}
+/* =========================
+   End Portfolio RTL
+========================= */

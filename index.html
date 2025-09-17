@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Yahia</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Portfolio CSS File -->
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <!-- Email File -->
+        <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "WPl0RMvb8oB4upWFS",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2><a href="#Home"><img src="images/logoEN.png" alt="Logo" width="200px"></a></h2>
+        <nav>
+          <i class="fa-solid fa-bars toggle-menu" id="toggle-menu"></i>
+          <ul id="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#ContactMe" class="Contact-link">Contact Me</a></li>
+                        <li><select name="" id="website-language" class="website-language">
+              <option value="english">English</option>
+              <option value="arabic">Arabic</option>
+            </select></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Start Home -->
+    <div class="home section" id="Home">
+      <div class="container">
+        <div class="info">
+          <p>Hello, I'am</p>
+          <h2 class="name">Mohamed Yahia</h2>
+          <p class="title">I AM Web Developer</p>
+          <p class="description">
+            passionate about creating modern, responsive, and user-friendly
+            websites. I specialize in front-end development using HTML, CSS, and
+            JavaScript, with a focus on clean design and seamless user
+            experience. I love turning ideas into interactive digital solutions.
+          </p>
+          <p><a href="#ContactMe" class="Contact-link">Contact</a></p>
+        </div>
+        <div class="personal-image">
+          <img src="images/mypic.jpg" alt="Mohamed Yahia" />
+        </div>
+      </div>
+    </div>
+    <!-- End Home -->
+    <!-- Start Skills -->
+    <div class="skills section" id="Skills">
+      <div class="container">
+        <div class="main-heading">
+          <h2>What I Have</h2>
+          <p>My Skills</p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-box element">
+            <i class="fa-brands fa-html5"></i>
+            <h4>HTML</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h4>CSS</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-js"></i>
+            <h4>Java Script</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-bootstrap"></i>
+            <h4>Bootstrap</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-git-alt"></i>
+            <h4>Git</h4>
+          </div>
+          <div class="skill-box element">
+            <i class="fa-brands fa-github"></i>
+            <h4>Github</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Portfolio -->
+    <div class="portfolio section" id="Projects">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Portfolio</h2>
+          <p>My Cases</p>
+        </div>
+        <div class="portfolio-container">
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/event-go.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>Event Go</h5>
+              <p class="description">
+                An Events management website providing professional planning,
+                coordination, and promotion services to create unforgettable
+                experiences with a modern and responsive design.
+              </p>
+              <p class="visit">
+                <a href="https://mooyahia.github.io/EventGo/" target="_blank"
+                  >Visit Website <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/kasper.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>Kasper</h5>
+              <p class="description element">
+                A Modern agency website template showcasing services, portfolio,
+                pricing plans, and contact details with a clean, responsive, and
+                professional design.
+              </p>
+              <p class="visit">
+                <a href="https://mooyahia.github.io/Kasper/" target="_blank"
+                  >Visit Website <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/leon.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>Leon</h5>
+              <p class="description">
+                A Sleek and responsive web template designed for digital
+                agencies, highlighting services, projects, team details, and
+                contact information in a clean layout.
+              </p>
+              <p class="visit">
+                <a href="https://mooyahia.github.io/Leon/" target="_blank"
+                  >Visit Website <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/creative-agency.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>Creative Agency</h5>
+              <p class="description">
+                A Professional multipurpose website template designed for
+                agencies and startups, including portfolio, services, pricing,
+                and contact sections.
+              </p>
+              <p class="visit">
+                <a
+                  href="https://mooyahia.github.io/Creative-Agency/"
+                  target="_blank"
+                  >Visit Website <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/egyptian-tourism.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>Egyptian Tourism</h5>
+              <p class="description">
+                An Elegant and responsive travel website highlighting Egypt’s
+                historical sites, tour packages, and visitor services.
+              </p>
+              <p class="visit">
+                <a
+                  href="https://mooyahia.github.io/Egyptian-Tourism/"
+                  target="_blank"
+                  >Visit Website <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-box element">
+            <div class="image">
+              <img src="images/portfolio-1.png" alt="" />
+            </div>
+            <div class="text">
+              <h5>Mohamed Yahia</h5>
+              <p class="description">
+                A personal portfolio website showcasing my web development
+                projects, skills, and services with a clean and responsive
+                design.
+              </p>
+              <p class="visit">
+                <a href=""
+                  >Visit Website <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start Testimonials -->
+    <div class="testimonials section" id="Testimonials">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Testimonials</h2>
+          <p>Whay My Clients are saying?</p>
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonial-box element">
+            <div class="text">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore numquam cumque totam impedit voluptatibus adipisci
+                incidunt, nulla aliquid facilis facere.
+              </p>
+            </div>
+            <div class="testimonial">
+              <div class="image"><img src="images/mypic.jpg" alt="" /></div>
+              <div class="info">
+                <p class="name">Mohamed Yahia</p>
+                <p class="title">Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box element">
+            <div class="text">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore numquam cumque totam impedit voluptatibus adipisci
+                incidunt, nulla aliquid facilis facere.
+              </p>
+            </div>
+            <div class="testimonial">
+              <div class="image"><img src="images/mypic.jpg" alt="" /></div>
+              <div class="info">
+                <p class="name">Mohamed Yahia</p>
+                <p class="title">Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box element">
+            <div class="text">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore numquam cumque totam impedit voluptatibus adipisci
+                incidunt, nulla aliquid facilis facere.
+              </p>
+            </div>
+            <div class="testimonial">
+              <div class="image"><img src="images/mypic.jpg" alt="" /></div>
+              <div class="info">
+                <p class="name">Mohamed Yahia</p>
+                <p class="title">Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+         <!-- Start Services -->
+    <div class="services section" id="Services">
+      <div class="container">
+        <div class="main-heading">
+          <h2>What I Do</h2>
+          <p>My Services</p>
+        </div>
+        <div class="services-container">
+          <div class="service-box element">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="text">
+              <h4>Web Development</h4>
+              <p>Clean , Modern and user-friendly code for your site</p>
+            </div>
+          </div>
+          <div class="service-box element">
+            <i class="fa-solid fa-user-gear"></i>
+            <div class="text">
+              <h4>Custom Solutions</h4>
+              <p>Tailored features to fit your needs</p>
+            </div>
+          </div>
+          <div class="service-box element">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <div class="text">
+              <h4>Responsive Design</h4>
+              <p>Optimized for all devices</p>
+            </div>
+          </div>
+          <div class="service-box element">
+            <i class="fa-solid fa-gears"></i>
+            <div class="text">
+              <h4>Support & Maintenance</h4>
+              <p>Reliable maintenance and updates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Contact -->
+    <div class="contact section" id="ContactMe">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Contact</h2>
+          <p>Are You looking For A Web Developer? i am here.</p>
+        </div>
+        <div class="contact-super-container">
+          <div class="contact-container">
+            <div class="contact-box element">
+              <a href="https://github.com/mooyahia" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <h4>GitHub</h4>
+                <p>mooyahia</p>
+              </a>
+            </div>
+            <div class="contact-box element">
+              <a
+                href="https://www.linkedin.com/in/mohamed-yahia-17462530b"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+                <h4>LinkedIn</h4>
+                <p>Mohamed Yahia</p>
+              </a>
+            </div>
+            <div class="contact-box element">
+              <a
+                href="https://www.upwork.com/freelancers/~0150ef7f7d2fd58ec5"
+                target="_blank"
+              >
+                <i class="fa-brands fa-square-upwork"></i>
+                <h4>UpWork</h4>
+                <p>Mohamed Yahia</p>
+              </a>
+            </div>
+            <div class="contact-box element">
+              <a
+                href="mailto:mohamedyahiad8@gmail.com"
+              >
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Email</h4>
+                <p>mohamedyahiad8@gmail.com</p>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form element">
+            <div class="main-heading">
+              <h2>Send Message</h2>
+            </div>
+            <form action="">
+              <input type="text" placeholder="Enter Your Subject" id="subject"/>
+              <input type="email" placeholder="Enter Your Email" id="email"/>
+              <textarea
+                name=""
+                id="message"
+                placeholder="Enter Your Message"
+              ></textarea>
+              <input type="button" value="Send Message" id="sendMessage" onclick="checkAndSend()"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="links">
+        <a href="https://github.com/mooyahia" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-yahia-17462530b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:mohamedyahiad8@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <div class="copy-right">
+        <p>&copy; All Rights Reserved 2025 | Mohamed Yahia</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>
